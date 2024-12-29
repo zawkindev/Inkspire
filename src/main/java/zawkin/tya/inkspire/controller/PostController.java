@@ -1,9 +1,9 @@
-package zawkin.maftuna.blog.controller;
+package zawkin.tya.inkspire.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import zawkin.maftuna.blog.entities.PostEntity;
-import zawkin.maftuna.blog.service.PostService;
+import zawkin.tya.inkspire.entities.PostEntity;
+import zawkin.tya.inkspire.service.PostService;
 
 import java.util.List;
 

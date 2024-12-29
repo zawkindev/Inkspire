@@ -1,4 +1,4 @@
-package zawkin.maftuna.blog.entities;
+package zawkin.tya.inkspire.entities;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

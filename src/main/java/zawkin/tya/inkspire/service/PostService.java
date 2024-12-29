@@ -1,9 +1,9 @@
-package zawkin.maftuna.blog.service;
+package zawkin.tya.inkspire.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import zawkin.maftuna.blog.entities.PostEntity;
-import zawkin.maftuna.blog.repository.PostRepository;
+import zawkin.tya.inkspire.entities.PostEntity;
+import zawkin.tya.inkspire.repository.PostRepository;
 
 import java.util.List;
 

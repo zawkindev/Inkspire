@@ -1,4 +1,4 @@
-package zawkin.maftuna.blog;
+package zawkin.tya.inkspire;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

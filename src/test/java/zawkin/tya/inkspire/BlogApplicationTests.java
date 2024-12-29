@@ -1,4 +1,4 @@
-package zawkin.maftuna.blog;
+package zawkin.tya.inkspire;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
