@@ -2,7 +2,7 @@ package zawkin.tya.inkspire.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import zawkin.tya.inkspire.entities.PostEntity;
+import zawkin.tya.inkspire.dto.PostDTO;
 import zawkin.tya.inkspire.service.PostService;
 
 import java.util.List;
@@ -14,13 +14,13 @@ public class PostController {
     private PostService postService;
 
     @PostMapping({"", "/"})
-    public PostEntity createStudent(@RequestBody PostEntity student) {
-        return postService.saveStudent(student);
-    };
+    public PostDTO createPost(@RequestBody PostDTO post) {
+        return postService.savePost(post);
+    }
 
-    @GetMapping({"", "/"})
-    public List<PostEntity> getAllStudents() {
-        return postService.getAllStudents();
+    @GetMapping
+    public List<PostDTO> getAllPosts() {
+        return postService.getAllPosts();
     }
 }
 
