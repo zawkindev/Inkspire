@@ -1,2 +1,2 @@
-# zawkin-writes
-**Zawkin Writes** is a space where thoughts, stories, and creativity flow through the power of words.
+# inkspire
+**inkspire** is a space where thoughts, stories, and creativity flow through the power of words.
